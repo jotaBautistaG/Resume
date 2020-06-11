@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+  </head>
+  <body style="background-color: lightblue;">
+    <form action="mailto:jota.bautista82@gmail.com" method="post" enctype="text/plain">
+      <label for="firstName">First Name</label>
+      <input type="text" name="firstName" value="">
+      <br>
+      <label for="lastName">Last Name</label>
+      <input type="text" name="lastName" value="">
+      <br>
+      <label for="dateOfBirth">DOB</label>
+      <input type="date" name="dateOfBirth" value="">
+      <br>
+      <label for="eMail">Email</label>
+      <input type="email" name="eMail" value="">
+      <br>
+        <p>What is your level of Spanish?</p>
+        <table>
+          <th>Choose your level</th>
+          <tr>
+            <td><label for="levelOfSpanish">Beginner</label></td>
+            <td><input type="radio" name="levelOfSpanish" value="Beginner"></td>
+          </tr>
+          <tr>
+            <td><label for="levelOfSpanish">Intermediate</label></td>
+            <td><input type="radio" name="levelOfSpanish" value="Intermediate"></td>
+          </tr>
+          <tr>
+            <td><label for="levelOfSpanish">Advanced</label></td>
+            <td><input type="radio" name="levelOfSpanish" value="Advanced"></td>
+          </tr>
+        </table>
+        <label for="yourMessage">Write a short descriotion of your experience with Spanish learning here:</label>
+        <br>
+        <textarea name="yourMessage" rows="8" cols="80"></textarea>
+        <p><strong>How many years have you studied the language?</strong></p>
+        <p>Type 0 for 0 years or less than a year</p>
+        <p>Type 10 for 10 or mopre than 10 years</p>
+        <br>
+        <table>
+          <tr>
+            <td><label for="yearsOfStudyingSpanish">Years of studying Spanish</label></td>
+            <td><input type="number" name="yearsOfStudyingSpanish" value="" min="0" max="10"></td>
+          </tr>
+
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td>
+              <input type="password" name="password" value="">
+            </td>
+          </tr>
+        </table>
+            <label for="resume">Upload a Spanish certificate if any</label>
+            <input type="file" name="" value="File here">
+            <br>
+            <label for="signUp">Do you want to sign up to the email list?</label>
+            <input type="checkbox" name="signUpBox" value="">
+            <br>
+            <input type="color" name="" value="">
+            <input type="reset" name="Reset" value="Reset">
+            <input type="submit" name="Submit" value="Submit">
+    </form>
+  </body>
+</html>
